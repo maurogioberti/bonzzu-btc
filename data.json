@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Programming",
+      "description": "Learn the basics of programming with this comprehensive course.",
+      "image": "course1.jpg",
+      "downloadLink": "https://gopro.com/content/dam/help/hero-2018/HERO_UM_LA_REVA.pdf"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Fundamentals",
+      "description": "Learn the fundamentals of web development with this comprehensive course.",
+      "image": "course2.jpg",
+      "downloadLink": "https://gopro.com/content/dam/help/hero-2018/HERO_UM_LA_REVA.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Data Structures",
+      "description": "Build on your knowledge of data structures with this advanced course.",
+      "image": "course1.jpg",
+      "downloadLink": "https://gopro.com/content/dam/help/hero-2018/HERO_UM_LA_REVA.pdf"
+    }
+  ]
+  
