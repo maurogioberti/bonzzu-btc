@@ -8,32 +8,32 @@ const Navbar = () => {
     ];
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <a className="navbar-brand" href="#">
                 <Image src="/logo.png" alt="Online Courses Logo" height={50} width={50} />
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
                         {
                             navItems.map(item => (
-                                <li key={item.path} class="nav-item">
-                                    <Link href={item.path} class="nav-link">
+                                <li key={item.path} className="nav-item">
+                                    <Link href={item.path} className="nav-link">
                                         {item.label}
                                     </Link>
                                 </li>
                             ))
                         }
                     </ul>
-                    {/* <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Log In</a>
+                    {/* <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Log In</a>
                         </li>
                     </ul> */}
                 </div>
