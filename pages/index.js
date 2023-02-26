@@ -7,7 +7,7 @@ export default function Home() {
             <p className="lead secondary-color">Choose from a variety of online courses on a wide range of topics.</p>
             <div className="embed-responsive embed-responsive-16by9">
             <video controls>
-              <source src="/video.mp4" type="video/mp4" />
+              <source src="/static/video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             </div>
