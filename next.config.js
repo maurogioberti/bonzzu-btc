@@ -1,7 +1,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost','https://maurolgioberti.github.io/bonzzu-btc']
+    domains: ['localhost','http://maurolgioberti.github.io/bonzzu-btc']
   },
 };
 
